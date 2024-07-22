@@ -1,0 +1,704 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+}
+
+
+.form-flex {
+    max-width: 500px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.login-flex {
+    max-width: 500px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.sign-up {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 25px 40px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.form-heading {
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.form-btn {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.form-p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 11px;
+}
+
+.form-p p {
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-icon {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+
+.nav-icon i {
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.nav-icon p {
+    margin: 0;
+    font-size: 22px;
+}
+
+.nav-bg {
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.logo h1 {
+    font-size: 35px;
+    margin: 0;
+}
+
+.todo-top {
+    display: flex;
+    align-items: center;
+    border: 1px solid;
+    width: 400px;
+    margin: auto;
+    margin-top: 52px;
+    border-radius: 4px;
+}
+
+.todo-top input {
+    height: 37px;
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+}
+
+.todo-list {
+    width: 866px;
+    height: 420px;
+    margin: auto;
+    margin-top: 25px;
+    background: white;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    position: relative;
+}
+
+.todo-list ul {
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.todo-list ul li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #ede6e685;
+    border-radius: 5px;
+    margin-top: 15px;
+    padding: 10px;
+}
+
+.list-btn {
+    display: flex;
+    gap: 20px;
+    cursor: pointer;
+}
+
+.todo-list h3 {
+    margin: 0;
+    text-align: center;
+}
+
+.search {
+    width: 400px;
+    margin: auto;
+    margin-top: 28px;
+    position: relative;
+}
+
+.search input {
+    border: none;
+    padding: 4px 21px;
+    outline: none;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    position: relative;
+}
+
+.serach-icon svg {
+    position: absolute;
+    right: 160px;
+    top: 4px;
+}
+
+.forget-btn {
+    text-align: center;
+}
+
+.no-data {
+    text-align: center;
+    margin-top: 80px;
+}
+
+.view-p {
+    text-align: center;
+}
+
+.view-flex {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    justify-content: space-between;
+}
+
+.view-flex h5,
+.view-flex p {
+    margin: 0;
+}
+
+.view-heading {
+    margin-bottom: 15px;
+}
+
+.create {
+    width: 500px;
+    margin: auto;
+    margin-top: 120px;
+    background: white;
+    padding: 30px;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.create-h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.create-input {
+    margin-top: 40px;
+}
+
+.create-input input {
+    width: 100%;
+    padding: 8px 15px;
+    border: 1px solid grey;
+    border-radius: 4px;
+    outline: none;
+}
+
+.create-btn {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.add-btn {
+    width: 866px;
+    margin: auto;
+    display: flex;
+    justify-content: end;
+    margin-top: 15px;
+}
+
+.add-btn-2 {
+    margin: auto;
+    display: flex;
+    justify-content: end;
+    margin-top: 15px;
+}
+
+.show-no {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+}
+
+.pagination-1 {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 30px;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    width: 71%;
+    margin-bottom: 10px;
+    font-size: 11px;
+}
+
+.pagination {
+    width: 70%;
+    display: flex;
+    position: fixed;
+    bottom: 0px;
+    justify-content: center;
+    background-color: white;
+    gap: 15px;
+}
+
+.pagination li a {
+    color: black;
+}
+
+.pagination li {
+    background-color: #5073fb;
+    padding: 5px 9px;
+    text-align: center;
+}
+
+.pagination .active {
+    color: white;
+}
+
+.pagination .active .visually-hidden {
+    display: none;
+}
+
+
+.t-items {
+    font-weight: 600;
+}
+
+.list-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.check-all {
+    padding-left: 10px;
+}
+
+.float-p {
+    position: fixed;
+    z-index: 1;
+    bottom: 25px;
+    left: 30px;
+}
+
+.loading-b {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+}
+
+.left-dialog .MuiPaper-root {
+    position: absolute;
+    left: 40px;
+    top: 30px;
+    bottom: 0;
+    width: 300px;
+    /* Adjust the width as needed */
+    margin: 0;
+    border-radius: 0;
+    height: 515px;
+    border-radius: 8px;
+    padding: 10px;
+    background: none;
+    backdrop-filter: brightness(0.5);
+}
+
+.chat-input input {
+    width: 100%;
+    padding: 8px 55px 8px 10px;
+    border: 1px solid grey;
+    border-radius: 8px;
+    outline: none;
+    font-size: 13px;
+}
+
+.chat-input {
+    position: relative;
+    margin-bottom: 3px;
+}
+
+.chat {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f3f0f0;
+    border-radius: 10px;
+}
+
+.chat h5 {
+    margin: 0;
+}
+
+.chat-text {
+    border: 1px solid rgb(182, 178, 178);
+    border-radius: 10px;
+    margin: 5px 0px;
+    color: white;
+    padding: 8px 11px !important;
+}
+
+.chat-text p {
+    color: black;
+    margin: 0;
+    font-size: 13px;
+}
+
+.logo-name {
+    text-decoration: none;
+}
+
+.user-chat img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.userName {
+    font-size: 14px;
+    margin-left: 10px;
+    color: white;
+}
+
+.user-mesg {
+    margin-top: 10px;
+    border-radius: 3px;
+    background: white;
+    padding: 10px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    width: 100%;
+}
+
+.time {
+    margin-left: 10px;
+    color: white;
+    font-size: 10px;
+}
+
+.user-chat {
+    margin-bottom: 15px;
+    position: relative;
+    z-index: 2;
+}
+
+.chat-text {
+    scrollbar-width: thin;
+    scrollbar-color: #888 #e0e0e0;
+}
+
+.chat-text h6 {
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.other-user-message {
+    background-color: green;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+}
+
+.other-user-message p {
+    color: white;
+}
+
+.tick-icon {
+    display: flex;
+    align-items: center;
+}
+
+.mesg-num {
+    position: absolute;
+    right: 0px;
+    top: -5px;
+    color: red;
+    background: white;
+    font-size: 12px;
+}
+
+.navbar-icon {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.navbar-icon p {
+    margin: 0;
+}
+
+.navbar-icon button {
+    border: none;
+    background: none;
+}
+
+.navbar-icon button i {
+    font-size: 20px;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 78vh;
+}
+
+.navbar-logo-name h1 {
+    font-size: 22px;
+}
+
+.profile-img {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.profile-img img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.dropdown {
+    position: absolute;
+    top: 63px;
+    right: -99px;
+    background-color: white;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    width: 150px;
+    padding: 10px 0;
+    border-radius: 3px;
+}
+
+.dropdown-2 {
+    position: absolute;
+    top: 7px;
+    right: -74px;
+    background-color: white;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    width: 94px;
+    padding: 10px 0;
+    border-radius: 3px;
+}
+
+.dropdown ul {
+    padding: 0;
+    margin: 0;
+}
+
+.dropdown-2 ul {
+    padding: 0;
+    margin: 0;
+}
+
+.dropdown button {
+    width: 100%;
+    text-align: start;
+    justify-content: flex-start;
+    text-transform: capitalize;
+    font-size: 13px;
+}
+
+.dropdown-2 button {
+    width: 100%;
+    text-align: start;
+    justify-content: flex-start;
+    text-transform: capitalize;
+    font-size: 13px;
+}
+
+.profile-bg {
+    width: 100%;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px 50px;
+    margin-top: 50px;
+}
+
+.profile-pic {
+    text-align: center;
+    width: 221px;
+    height: 221px;
+    border-radius: 50%;
+    margin-top: 50px;
+    position: relative;
+}
+
+.profile-pic img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.pro-head {
+    margin: 0;
+    padding-left: 31px;
+    margin-top: 13px;
+}
+
+.border-right {
+    border-right: 2px solid #dfd5d5;
+}
+
+.profile-info {
+    margin-top: 50px;
+    padding-left: 50px;
+}
+
+.p-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.p-info h5 {
+    margin: 0;
+}
+
+.profile-head {
+    text-align: center;
+}
+
+.upload-icon {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.upload-icon label {
+    cursor: pointer;
+}
+
+.admin-bg {
+    background-color: white;
+    margin-top: 4px;
+    padding: 20px 0px;
+    width: 100%;
+    height: 91vh;
+}
+
+.side-bar {
+    margin-top: 27px;
+}
+
+.side-bar ul li button {
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    color: black;
+    text-transform: capitalize;
+}
+
+.side-bar ul li a {
+    text-decoration: none;
+}
+
+.side-bar ul li {
+    background-color: #f9f4f4;
+    margin-top: 8px;
+    border-radius: 5px;
+}
+
+.admin-flex {
+    padding: 0px 92px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.user-card {
+    width: 191px;
+    height: 100px;
+    background-color: #f9f4f4;
+    border-radius: 9px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.user-table {
+    width: 100%;
+    margin-top: 20px;
+    border: 1px solid;
+}
+
+.user-table th {
+    border: 1px solid;
+    text-align: center;
+    background: #f1e4e459;
+}
+
+.user-table td {
+    text-align: center;
+    padding: 20px;
+}
+
+.pagination-2 {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.more-vert {
+    position: relative;
+    cursor: pointer;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    margin-bottom: 19px;
+
+}
+
+.user-info span {
+    text-align: center;
+}
+
+.user {
+    text-align: center;
+}
+
+.user-inf {
+    color: black;
+    font-weight: 700;
+}
+
+.user-list {
+    height: 300px;
+}
